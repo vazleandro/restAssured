@@ -1,6 +1,5 @@
 package br.exemplo.restAssured.steps;
 
-import static org.hamcrest.Matchers.containsString;
 import static org.hamcrest.Matchers.equalTo;
 
 import cucumber.api.java.es.Dado;
@@ -50,9 +49,5 @@ public class MetodoDelete {
 		.statusCode(404)
 		.body("error", equalTo("Not Found"));
 		
-		//.body("error", containsString("Not Found"));
-		
-		
-
 	}
 }
