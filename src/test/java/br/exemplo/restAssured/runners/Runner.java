@@ -7,7 +7,7 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 		
-		features ="src/test/resources/features/", tags = {"@GET, @PUT, @DELETE, @PATCH, @TOKEN, @POST"}, 
+		features ="src/test/resources/features/", tags = "@PUT", //{"@GET, @PUT, @DELETE, @PATCH, @TOKEN, @POST"}, 
 		//tags={"@TOKEN","@POST"}, AND
 		//tags = {"@GET, @PUT, @DELETE, @PATCH, @TOKEN, @POST"}  OR
 		
